@@ -7,10 +7,13 @@
 ### This is version of a simple prompt basic calculator app using  javascript. The calculator has 4 main functions.
 
 
-* add
-* multiply
-* divide
-* subtract
+* **Add**
+* **Multiply**
+* **Divide**
+* **Subtract**
 
-* ###  User Story : you can add, subtract, multiply and divide two numbers. 
-* ###  User Story : you can reset the last result  with reset last result botton and display last rersult as well.
+___
+
+ > User Story : you can add, subtract, multiply and divide two numbers. 
+
+  > User Story : you can reset the last result  with reset last result botton and display last rersult as well.
