@@ -88,10 +88,12 @@ function divideHandler() {
   const y = Number(input2);
   // add the user's number to the last result and reassign lastResult
   
-  const lastResult = divide(x,y);
+  const result = divide(x,y);
 
-  
+  lastResult = result;
+
   console.log('lastResult (after):', typeof lastResult, '\n', lastResult);
 
-  alert(`the new result is: ${lastResult}`); displayLastResultHandler();
+  alert(`the new result is: ${lastResult}`); 
+  
 }

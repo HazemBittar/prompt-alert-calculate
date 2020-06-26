@@ -89,12 +89,13 @@ function addHandler() {
   const y = Number(input2);
   // add the user's number to the last result and reassign lastResult
   
-  const lastResult = add(x,y);
+  const result = add(x,y);
 
-  
+  lastResult = result;
+
   console.log('lastResult (after):', typeof lastResult, '\n', lastResult);
 
   alert(`the new result is: ${lastResult}`);
 
-  resetLastResultHandler();
+  
 }

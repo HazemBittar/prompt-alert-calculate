@@ -6,6 +6,6 @@ function displayLastResultHandler() {
   console.log('-- action: display lastResult');
   console.log('lastResult:', typeof lastResult, '\n', lastResult);
 
-  alert(`${typeof lastResult}: ${lastResult}`);
+  alert(`lastResult: ${lastResult}`);
 
 }
